@@ -1,0 +1,19 @@
+.dashboard {
+  margin-top: -17px;
+}
+.dashboard-top {
+  background-color: #a7c4bc;
+  height: 900px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.dash-logo {
+  font-size: 70px;
+  padding-top: 90px;
+  color: white;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+}

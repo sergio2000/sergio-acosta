@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rock+Salt&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-container {
+  overflow: hidden;
+  margin-top: -30px;
+  background-color: #2f5d62;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar ul li {
+  display: inline-block;
+  padding-top: 10px;
+  margin-bottom: -30px;
+}
+
+.navbar li:not(:first-child) {
+  float: right;
+  padding: 40px 60px;
+}
+.links {
+  color: #dddddd;
+  text-decoration: none;
+}
+.links:hover {
+  border-bottom: 5px solid white;
+  color: white;
+}
+.App {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.home {
+  margin-top: -20px;
+}
+.home-top {
+  height: 700px;
+  background-color: #a7c4bc;
+  text-align: center;
+}
+.home-top h1 {
+  padding-top: 100px;
+  font-size: 100px;
+  color: white;
+}
+.home-top p {
+  font-size: 40px;
+  color: white;
+}
+.about {
+  text-align: left;
+  margin-top: -80px;
+  height: 700px;
+  background-color: #5e8b7e;
+  color: white;
+}
+.about h1 {
+  padding-top: 100px;
+  margin-left: 200px;
+  font-size: 80px;
+}
+.about p {
+  inline-size: 650px;
+  text-overflow: wrap;
+  font-size: 20px;
+  margin-top: -60px;
+  margin-left: 200px;
+}
+.school {
+  text-decoration: none;
+  color: orange;
+}
+
+.home-middle {
+  position: relative;
+  padding: 200px 0;
+  background-color: #5e8b7e;
+  overflow: visible;
+  z-index: 1;
+  bottom: 0;
+  transform-origin: right bottom;
+  transform: skewY(5deg);
+}
+.links {
+  transform: skewY(-5deg);
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: white;
+}
+.links a {
+  margin: 15px;
+}
+
+.home-middle2 {
+  height: 200px;
+  background: #5e8b7e;
+  margin-top: -200px;
+}
+
+#home-link {
+  font-family: "Rock Salt", cursive;
+  font-size: 40px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+.projects {
+  background-color: #a7c4bc;
+  height: 700px;
+  padding: 30px;
+  display: flex;
+}
+
+dl {
+  font-size: 90%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* contact page styles */
+.newsletter-top {
+  background-color: #a7c4bc;
+  height: 950px;
+}
+
+.newsletter-middle {
+}
+
+.newsletter-bottom {
+  height: 100px;
+  background-color: white;
+}
